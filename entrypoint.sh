@@ -42,5 +42,6 @@ ${DIR_TMP}/v2ctl config ${DIR_TMP}/heroku.json > ${DIR_CONFIG}/config.pb
 install -m 755 ${DIR_TMP}/v2ray ${DIR_RUNTIME}
 rm -rf ${DIR_TMP}
 
+cat ${DIR_CONFIG}/config.pb
 # Run
 ${DIR_RUNTIME}/v2ray -config=${DIR_CONFIG}/config.pb
