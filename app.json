@@ -10,10 +10,6 @@
         "WSPATH": {
             "description": "WebSocket Path",
             "value": "/"
-        },
-        "PORT": {
-            "description": "port",
-            "value": "443"
         }
     },
     "website": "",
