@@ -1,0 +1,18 @@
+{
+    "name": "docker-wall-demo",
+    "description": "docker-wall-demo",
+    "keywords": ["docker, wall, demo"],
+    "env": {
+        "ID": {
+            "description": "UUID",
+            "value": "dc241b7a-9d55-4805-bd56-fc92176f9f9a"
+        },
+        "WSPATH": {
+            "description": "WebSocket Path",
+            "value": "/"
+        }
+    },
+    "website": "",
+    "repository": "",
+    "stack": "container"
+}
